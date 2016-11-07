@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/base_fill_fill"
+    android:background="#ffffff"
+    android:orientation="vertical">
+
+    <TextView
+        style="@style/base_fill_wrap"
+        android:layout_margin="16dp"
+        android:gravity="center"
+        android:text="手势密码锁定"
+        android:textSize="20dp" />
+    
+    <TextView
+        android:background="#010e1a"
+        android:layout_width="match_parent"
+        android:layout_height="1dp" />
+
+
+    <ImageView
+        style="@style/base_fill_wrap"
+        android:layout_weight="1"
+        android:src="@mipmap/ic_launcher" />
+
+    <TextView
+        style="@style/base_fill_wrap"
+        android:layout_marginTop="16dp"
+        android:gravity="center"
+        android:text="你可以创建一个QQ解锁图案，这样他人"
+        android:textSize="18dp" />
+
+    <TextView
+        style="@style/base_fill_wrap"
+        android:layout_marginBottom="16dp"
+        android:gravity="center"
+        android:text="在借用你手机时，将无法打开QQ。"
+        android:textSize="18dp" />
+
+    <Button
+        android:id="@+id/bt"
+        style="@style/base_fill_wrap"
+        android:layout_margin="8dp"
+        android:background="#469aed"
+        android:text="创建手势密码" />
+
+    <Button
+        android:id="@+id/btCheck"
+        style="@style/base_fill_wrap"
+        android:layout_margin="8dp"
+        android:background="#469aed"
+        android:text="检验手势密码" />
+
+
+</LinearLayout>

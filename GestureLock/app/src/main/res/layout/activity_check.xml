@@ -1,0 +1,37 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/base_fill_fill"
+    android:background="#ffffff">
+
+    <LinearLayout
+        android:id="@+id/gesture_tip_layout"
+        style="@style/base_fill_wrap"
+        android:orientation="vertical"
+        android:paddingTop="20dp">
+
+        <ImageView
+            android:id="@+id/user_logo"
+            style="@style/base_wrap_wrap"
+            android:layout_gravity="center_horizontal"
+            android:src="@mipmap/ic_launcher" />
+
+        <TextView
+            android:id="@+id/text_phone_number"
+            style="@style/base_fill_wrap"
+            android:layout_marginTop="10dp"
+            android:gravity="center_horizontal"
+            android:text="http://blog.csdn.net/lxk_1993/article/details/50349528" />
+
+        <TextView
+            android:id="@+id/text_tip"
+            style="@style/base_fill_wrap"
+            android:layout_marginTop="10dp"
+            android:gravity="center_horizontal"
+            android:visibility="invisible" />
+    </LinearLayout>
+
+    <FrameLayout
+        android:id="@+id/gesture_container"
+        style="@style/base_wrap_wrap"
+        android:layout_below="@id/gesture_tip_layout"></FrameLayout>
+
+</RelativeLayout>

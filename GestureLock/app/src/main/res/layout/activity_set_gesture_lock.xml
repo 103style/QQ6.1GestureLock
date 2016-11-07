@@ -1,0 +1,31 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/base_fill_fill"
+    android:background="#ffffff"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/gesture_tip_layout"
+        style="@style/base_fill_wrap"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <com.hnpolice.luoxiaoke.gesturelock.LockIndicator
+            android:id="@+id/lock_indicator"
+            style="@style/base_wrap_wrap"
+            android:layout_marginTop="12dp" />
+
+        <TextView
+            android:id="@+id/text_tip"
+            style="@style/base_fill_wrap"
+            android:layout_marginTop="12dp"
+            android:gravity="center_horizontal"
+            android:text="@string/set_lock_img" />
+    </LinearLayout>
+
+    <FrameLayout
+        android:id="@+id/gesture_container"
+        style="@style/base_wrap_wrap"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp" />
+
+</LinearLayout>
